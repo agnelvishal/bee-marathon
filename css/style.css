@@ -724,3 +724,14 @@ body::before {
   z-index: 10;
   transition: transform 0.5s ease;
 }
+
+/* Route Map Card Styling */
+.map-card-content {
+  padding: 24px 40px;
+}
+@media (max-width: 480px) {
+  .map-card-content {
+    padding: 20px 16px;
+  }
+}
+

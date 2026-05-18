@@ -175,6 +175,26 @@
       <button class="reset-btn" onclick="resetForm()">Register Another Person</button>
     </div>
 
+    <!-- Marathon Route Map Card -->
+    <div class="card" id="map-card" style="margin-top: 8px;">
+      <div class="map-card-content">
+        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--primary-amber)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;">
+            <polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon>
+            <line x1="9" y1="3" x2="9" y2="18"></line>
+            <line x1="15" y1="6" x2="15" y2="21"></line>
+          </svg>
+          <h2 style="font-family: var(--font-heading); font-weight: 800; font-size: 1.4rem; color: var(--text-primary); margin: 0; line-height: 1.2;">Marathon Route Map</h2>
+        </div>
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 16px; font-weight: 500; line-height: 1.4;">
+          Explore the official World Bee Day Marathon route, milestones, and physical scanning booths!
+        </p>
+        <div class="map-wrapper" style="position: relative; width: 100%; border: 1.5px solid var(--glass-border); border-radius: 16px; overflow: hidden; height: 380px; box-shadow: 0 4px 15px rgba(46, 30, 5, 0.02); background: rgba(0,0,0,0.01);">
+          <iframe src="https://www.google.com/maps/d/embed?mid=1MDeVDLifvl3CNzrxSSILbDS3KnuZ-M0" width="100%" height="100%" style="border:none;" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+
     <!-- Footer Information Section -->
     <div class="footer-info">
       <p>To find about events and workshops in Auroville and Pondy, visit our local discovery platform or get our mobile
