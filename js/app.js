@@ -3,7 +3,7 @@
 // ==========================================================================
 // Replace this with your Google Apps Script Web App Deployment URL
 // After deploying the Google Apps Script, copy the URL here.
-const GOOGLE_SCRIPT_URL = '';
+const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwyFEwnGLuNYsZQjFVNvUa6oAaCJA_LbeI29F0p6Cqy2XvHECJHDFZp6gps3jxjG3c6NA/exec';
 
 // ==========================================================================
 // INITIALIZATION & DOME ELEMENTS
@@ -238,7 +238,7 @@ regForm.addEventListener('submit', (e) => {
   };
 
   // If Script URL is not set yet, trigger developer sandbox preview
-  if (!GOOGLE_SCRIPT_URL || GOOGLE_SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbwyFEwnGLuNYsZQjFVNvUa6oAaCJA_LbeI29F0p6Cqy2XvHECJHDFZp6gps3jxjG3c6NA/exec') {
+  if (!GOOGLE_SCRIPT_URL || GOOGLE_SCRIPT_URL === 'YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL') {
     console.warn("GOOGLE_SCRIPT_URL is not set. Simulating database submission for developer preview...");
     setTimeout(() => {
       setLoadingState(false);
